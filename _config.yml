@@ -24,6 +24,8 @@ github_username:  dukesucks
 
 disqus:
   shortname: dukesuckss-jekyll-site
+  
+timezone: America/Los_Angeles
 
 # Build settings
 markdown: kramdown
