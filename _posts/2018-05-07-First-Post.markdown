@@ -3,6 +3,7 @@ layout: post
 title:  "Duke is really bad!"
 date:   2018-05-07 14:19:49 -0700
 categories: uncategorized
+author: Luke Oh
 ---
 
 ## this is an h2
