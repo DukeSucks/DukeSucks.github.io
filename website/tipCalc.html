@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div id="wrapper">
+<header>
+	<h1>Tip Calculator</h1>
+</header>
+<form>
+Amount: $<input id="bill" type="text">
+<br>
+<button onclick="calc()">Calculate</button>
+<br>
+Tip: <span id="total"></span>
+</form>
+</div>
+<script>
+<function calc() {
+	var bill=document.getElementById("bill").value;
+	var tip=bill*.15;
+	var total+bill+tip;
+	document.getElementByIs("tipt").innerHTML="$"+(tip).toFixed(2)
+}
+</script>
+</body>
+</html>

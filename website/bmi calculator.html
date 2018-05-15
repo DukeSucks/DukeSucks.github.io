@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	var height = prompt("What is your height?");
+	var weight = prompt("What is your weight?");
+	var height2=(height*0.254);
+	var weight2=(height*0.43592);
+	var BMI=(weight2/(height2*height2));
+	var inches=height%12;
+	var feet=(height-inches)/12;
+	document.write("height"+feet+"inches+"\"");
+	document.write("<br>"+"weight"+weight+"BMI"+BMI);
+	</script>
+</body>
+</html>

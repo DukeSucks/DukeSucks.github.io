@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My Color Palette
+Color 1: #4CCBFF
+Color 2: #00B4FF
+Color 3: #005A7F
+*/
+body   {
+		 font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		 color:teal;
+		 background-color:#E3DADA
+}
+#footer p {
+		text-align: right;
+}
+
+/*---------------------------------------------
+
+							   Basic Structure
+							   
+----------------------------------------------*/
+#wrapper  {
+		width: 960px;
+		padding: 5px;
+		margin: 20px auto;
+}
+
+#header {
+		height: 100px;
+}
+
+#sidebar {
+		float: left;
+		width: 300px;
+}
+
+#content {
+		float: right;
+		width: 600px;
+}
+
+#footer {
+		clear: both;
+}
+
+/*---------------------------------------------
+
+							   Colors And Fonts
+
+----------------------------------------------*/
+body   {
+		 font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		 color:#7598B2;
+		 /*background-color: #9fc;*/
+		 background-image: url("../images/14.jpg");
+		
+}
+
+#header, #sidebar, #content, #footer {
+	background-color:#E3DADA;
+	margin-bottom: 4px;
+	border:double;
+	border-radius: 8px;
+	border-color: grey;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+/*---------------------------------------------
+
+							   Responsive Width
+
+----------------------------------------------*/
+@media screen and (max-width: 980px) {
+	#wrapper {
+		width: 94%;
+}
+	#content {
+		width: 65%;
+}
+#sidebar {
+	width: 30%;
+}
+}
+@media screen and (max-width: 700px) {
+	#content, #sidebar {
+		width: auto;
+		float: none;
+	}
+	#header {
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#header {
+		height:auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	#sidebar {
+		float:none;
+	}
+}
+
+/* Phones */
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+	body {
+		font-size:40px;
+	}
+	#header {
+		height: auto;
+	}
+	#content {
+		width:auto;
+		clear: both;
+	}
+	#header, #sidebar, #content, #footer {
+		border-radius:16px;
+		border-width:8px;
+	}
+}
